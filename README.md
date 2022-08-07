@@ -1,5 +1,3 @@
-# luongxanh
-
 ## Project setup
 ```
 npm install
