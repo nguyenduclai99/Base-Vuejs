@@ -1,55 +1,67 @@
 {
-  "name": "luongxanh",
+  "name": "halana-client",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "serve": "vite --host 0.0.0.0",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "store": "node tools/store/index"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@element-plus/icons-vue": "^1.1.4",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "@headlessui/vue": "^1.3.0",
+    "@heroicons/vue": "^1.0.1",
+    "@sentry/tracing": "^6.16.1",
+    "@sentry/vue": "^6.16.1",
     "axios": "^0.21.1",
-    "bootstrap": "^4.6.0",
-    "core-js": "^3.6.5",
-    "element-ui": "^2.15.3",
-    "jquery": "^3.6.0",
-    "js-cookie": "^3.0.0",
+    "buffer": "^6.0.3",
+    "chart.js": "^3.8.0",
+    "click-outside-vue3": "^4.0.1",
+    "element-plus": "2.0.1",
+    "emitter-io": "^1.39.0",
+    "emoji-mart-vue-fast": "^10.2.1",
     "lodash": "^4.17.21",
-    "print-this": "^1.15.1",
-    "vue": "^2.6.11",
-    "vue-analytics": "^5.22.1",
-    "vue-html2pdf": "^1.8.0",
-    "vue-meta": "^2.4.0",
-    "vue-router": "^3.5.2",
-    "vuex": "^3.6.2"
+    "mitt": "^3.0.0",
+    "pinia": "^2.0.14",
+    "vee-validate": "^4.4.7",
+    "vue": "^3.2.27",
+    "vue-chart-3": "^3.1.8",
+    "vue-router": "^4.0.8",
+    "vue-sweetalert2": "^5.0.5",
+    "vue3-google-map": "^0.13.0",
+    "vuex": "^4.0.2",
+    "yup": "^0.32.9"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "@tailwindcss/forms": "0.5.2",
+    "@types/lodash": "^4.14.178",
+    "@types/node": "^17.0.10",
+    "@vitejs/plugin-vue": "^2.0.1",
+    "@vue/compiler-sfc": "^3.2.27",
+    "autoprefixer": "^10.2.5",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "fs-extra": "^10.0.0",
+    "postcss": "^8.4.5",
+    "prettier": "^2.5.1",
+    "rollup-plugin-visualizer": "^5.5.0",
+    "sass": "^1.49.0",
+    "tailwindcss": "^3.0.15",
+    "typescript": "^4.5.4",
+    "unplugin-auto-import": "^0.5.11",
+    "unplugin-vue-components": "^0.17.13",
+    "vite": "^2.7.13",
+    "vite-plugin-style-import": "^1.4.1",
+    "vue-tsc": "^0.30.6",
+    "yargs": "^17.0.1"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+  "engines": {
+    "node": ">=14"
+  }
 }

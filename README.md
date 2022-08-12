@@ -1,23 +1,29 @@
-## Project setup
-```
-npm install
-```
+# argon-dashboard-vue3
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Argon Dashboard Vue 3, ElementUI &amp; TailwindCSS - Inspired by [Creative Tim](https://www.creative-tim.com/product/vue-argon-dashboard)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+![Hi](/src/assets/images/dashboard.png)
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Nice stack (VET)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- [VueJS 3](https://vuejs.org) with well structured
+- [ElementUI](https://element-plus.org/en-US/) for VueJS 3
+- [TailwindCSS 3](https://tailwindcss.com)
+- [Vite](https://vitejs.dev)
 
+## Sponsor
+
+LTV Software
+
+![LTV Software](https://s.gravatar.com/avatar/bf6addc65b990260d9ba27bc1bee92b4?s=100)
+
+## Contributors
+
+- [Dung Le](https://github.com/dzunglee)
+- [Phong Le](https://github.com/LeThanhPhongLTV)
+- [Hieu Dang](https://github.com/Trung-Hieu-Dev)
+- [Kha Huynh](https://github.com/khaht)
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT)
